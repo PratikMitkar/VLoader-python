@@ -120,7 +120,7 @@ class SplashScreen(QSplashScreen):
                 "secondary_text_color": "rgba(52, 73, 94, 180)",
                 "progress_bg": "rgba(189, 195, 199, 100)",
                 "progress_chunk": "#526D82",
-                "logo_path": "_internal/icons/app-removebg.png"
+                "logo_path": "icons/app-removebg.png"
             },
             "Dark": {
                 "central_bg": "rgba(44, 62, 80, 200)",
@@ -129,7 +129,7 @@ class SplashScreen(QSplashScreen):
                 "secondary_text_color": "rgba(236, 240, 241, 180)",
                 "progress_bg": "rgba(52, 73, 94, 100)",
                 "progress_chunk": "#526D82",
-                "logo_path": "_internal/icons/app-removebg-white.png"
+                "logo_path": "icons/app-removebg-white.png"
             }
         }
         
@@ -947,7 +947,7 @@ class VideoDownloaderApp(QMainWindow):
         self.setWindowTitle("VLoader - Video Downloader")
         
         # Set application icon using PNG file
-        app_icon = QIcon("_internal/icons/app-removebg.png")
+        app_icon = QIcon("icons/app-removebg.png")
         self.setWindowIcon(app_icon)
         QApplication.setWindowIcon(app_icon)  # Set application-wide icon
         
