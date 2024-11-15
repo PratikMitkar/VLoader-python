@@ -17,10 +17,6 @@ from PyQt6.QtGui import QDesktopServices
 import time
 from PyQt6.QtWebEngineWidgets import QWebEngineView
 from PyQt6.QtWebEngineCore import QWebEnginePage, QWebEngineProfile, QWebEngineSettings
-import os
-import random
-import warnings
-import urllib3
 from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 from browser_cookie3 import chrome, firefox
