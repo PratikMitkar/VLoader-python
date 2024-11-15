@@ -2,15 +2,15 @@
 
 <div align="center">
 
-![VLoader Logo](_internal/icons/app-removebg.png)
+![VLoader Logo](icons/app-removebg.png)
 
 A powerful, user-friendly video downloader with a modern UI built in Python 🚀
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)](https://www.python.org/)
 [![PyQt6](https://img.shields.io/badge/PyQt-6.0+-green.svg)](https://www.riverbankcomputing.com/software/pyqt/)
-[![Downloads](https://img.shields.io/github/downloads/yourusername/vloader/total.svg)](https://github.com/yourusername/vloader/releases)
-[![Stars](https://img.shields.io/github/stars/yourusername/vloader.svg)](https://github.com/yourusername/vloader/stargazers)
+
+[View Demo](https://github.com/PratikMitkar/VLoader-python) | [Report Bug](https://github.com/PratikMitkar/VLoader-python/issues) | [Request Feature](https://github.com/PratikMitkar/VLoader-python/issues)
 
 </div>
 
@@ -29,8 +29,16 @@ A powerful, user-friendly video downloader with a modern UI built in Python 🚀
 ## 🖥️ Screenshots
 
 <div align="center">
-<img src="screenshots/light-theme.png" width="45%" alt="Light Theme"/>
-<img src="screenshots/dark-theme.png" width="45%" alt="Dark Theme"/>
+<table>
+  <tr>
+    <td><img src="screenshots/light-theme.png" alt="Light Theme"/></td>
+    <td><img src="screenshots/dark-theme.png" alt="Dark Theme"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Light Theme</b></td>
+    <td align="center"><b>Dark Theme</b></td>
+  </tr>
+</table>
 </div>
 
 ## 🚀 Installation
@@ -47,10 +55,10 @@ pip install vloader
 ### Method 2: From source
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vloader.git
+git clone https://github.com/PratikMitkar/VLoader-python.git
 
 # Navigate to directory
-cd vloader
+cd VLoader-python
 
 # Install dependencies
 pip install -r requirements.txt
@@ -110,16 +118,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [PyQt6](https://www.riverbankcomputing.com/software/pyqt/) for the amazing GUI framework
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) for the powerful download engine
-- All our [contributors](https://github.com/yourusername/vloader/contributors)
+- All our [contributors](https://github.com/PratikMitkar/VLoader-python/graphs/contributors)
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Pratik Mitkar - [@PratikMitkar](https://github.com/PratikMitkar)
 
-Project Link: [https://github.com/yourusername/vloader](https://github.com/yourusername/vloader)
+Project Link: [https://github.com/PratikMitkar/VLoader-python](https://github.com/PratikMitkar/VLoader-python)
 
 ---
 
 <div align="center">
-Made with ❤️ by [Your Name/Team]
+Made with ❤️ by <a href="https://github.com/PratikMitkar">Pratik Mitkar</a>
 </div>
